@@ -4,7 +4,7 @@
 
 ## Statement
 
-![](Images/caas.jpg =300x300)
+<img src="caas.jpg" alt="challenge caas" width="300" height="300"/>
 
 Link to that website [cass](https://caas.mars.picoctf.net/cowsay/message)
 
