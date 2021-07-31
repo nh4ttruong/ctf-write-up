@@ -3,7 +3,9 @@
 # caas - Web Exploition
 
 ## Statement
-![](Images/caas.jpg)
+
+![](Images/caas.jpg =300x300)
+
 Link to that website [cass](https://caas.mars.picoctf.net/cowsay/message)
 
 ## Solution
