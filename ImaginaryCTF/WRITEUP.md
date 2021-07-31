@@ -14,19 +14,19 @@ And got this:
 
 ## Flag
 We have the location 38.9472063,-119.9610895 but the author asked that submit the location with rounded it 3 number.
->ictf{38.947_-119.961}
+>**ictf{38.947_-119.961}**
 
 # 2. Spelling Test - Forensic
 
 ## Statement
-![] (Images/SpellingTest.png)
+![](Images/SpellingTest.png)
 
 ## Solution
 Use [Grammarly Extension](https://app.grammarly.com/) to check the wrong character in the list.
 Then, we concat all of wrong character and we have the flag. So manual but we did it :3
 
 ## Flag
->ictf{youpassedthesplellingtest}
+>**ictf{youpassedthesplellingtest}**
 
 # 3. Roos World - Web Exploition
 
@@ -40,5 +40,5 @@ After that, we have the code ```console.log(atob("aWN0ZnsxbnNwM2N0MHJfcjAwX2cwZX
 Then, we have the flag.
 
 ## Flag
->ictf{1nsp3ct0r_r00_g0es_th0nk}
+>**ictf{1nsp3ct0r_r00_g0es_th0nk}**
 
