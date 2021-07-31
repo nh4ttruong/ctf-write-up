@@ -4,11 +4,14 @@
 
 ## Statement
 Find out the location where he forgot. He still have this picture.
+
 ![](Images/SanityCheck.jpg)
 
 ## Solution
 First, we find out some special things in the picture. We see the brand sign "SugarPine Bakery".
+
 ![](Images/streetview.png)
+
 Use Google Maps Street View to check where "SugarPine Bakery" is.
 And got this:
 
@@ -19,6 +22,7 @@ We have the location 38.9472063,-119.9610895 but the author asked that submit th
 # 2. Spelling Test - Forensic
 
 ## Statement
+
 ![](Images/SpellingTest.png)
 
 ## Solution
