@@ -10,10 +10,13 @@ Find out the location where he forgot. He still have this picture.
 ## Solution
 First, we find out some special things in the picture. We see the brand sign "SugarPine Bakery".
 
-![](Images/streetview.png)
+![](Images/brandsign)
 
 Use Google Maps Street View to check where "SugarPine Bakery" is.
-And got this:
+
+![](Images/streetview.png)
+
+Maybe this is the location which we should find out.
 
 ## Flag
 We have the location 38.9472063,-119.9610895 but the author asked that submit the location with rounded it 3 number.
