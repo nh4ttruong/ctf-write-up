@@ -1,2 +1,2 @@
-# writeup-ctf
+# WRITEUP CTF
 Write-up Capture The Flag
