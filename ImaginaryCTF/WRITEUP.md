@@ -10,7 +10,7 @@ Find out the location where he forgot. He still have this picture.
 ## Solution
 First, we find out some special things in the picture. We see the brand sign "SugarPine Bakery".
 
-![](Images/brandsign)
+![](Images/brandsign.png)
 
 Use Google Maps Street View to check where "SugarPine Bakery" is.
 
