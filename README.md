@@ -6,3 +6,6 @@ Write-up Capture The Flag
 
 ## Pico CTF
 [Click me](PicoCTF/WRITEUP.md)
+
+## Red Team Longe CTF
+[Click me](RedTeamLongeCTF/WRITEUP.md)
