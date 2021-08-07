@@ -9,3 +9,7 @@ Write-up Capture The Flag
 
 ## Red Team Longe CTF
 [Click me](RedTeamLongeCTF/WRITEUP.md)
+
+## BSides Noida CTF
+[Click me](BSidesNoidaCTF/WRITEUP.md)
+
