@@ -1,4 +1,4 @@
-# WRITEUP CTF
+# Write-up CTF
 Write-up Capture The Flag
 
 ## Imaginary CTF
