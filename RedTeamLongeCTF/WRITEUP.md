@@ -10,7 +10,7 @@ First, I think that the image will contain some data and I come up with "metadat
 
 ![](Images/ex1.png)
 
-It is the hex numbers. Next, I decrypt it to ASCII with [dcode.fr](https://www.dcode.fr/ascii-code) and have the link (https://pastebin.com/QF2UzjVY)[https://pastebin.com/QF2UzjVY]. In there, we have a code same as base64. Finally, decrypt this code and get the flag.
+It is the hex numbers. Next, I decrypt it to ASCII with [dcode.fr](https://www.dcode.fr/ascii-code) and have the link [https://pastebin.com/QF2UzjVY](https://pastebin.com/QF2UzjVY). In there, we have a code same as base64. Finally, decrypt this code and get the flag.
 
 ![](Images/ex2.png)
 
@@ -31,7 +31,7 @@ The picture is so bad quality and I decided that use enhance tool to make it cla
 
 ![](Images/whereeh.png)
 
-Look at the picture, I was impressed by the tower behind. But we can't guess that what it name and where it is. After found something special on the picture, I see the text on the building wall. I guess that this text is * "Zum Puddelwerk" *. Use my google maps skill and I got a information relate to that name. That is the name of street in Germany. So that, I used two information about the given picture for the next step.
+Look at the picture, I was impressed by the tower behind. But we can't guess that what it name and where it is. After researching something special on the picture, I see the text on the building wall. I guess that this text is *"Zum Puddelwerk"*. Use my google maps skill and I got a information relate to that name. That is the name of street in Germany. So that, I used two information about the given picture for the next step.
 
 The next step, I use Google Image to search with "tower in Germany". After 10 minutes looked up on Google Images, I realized that is *"The Fernsehturm (TV Tower)"*:
 
