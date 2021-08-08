@@ -52,7 +52,7 @@ Here is code -> [Code](myartwork/art.TURTLE)
 
 ## Solution
 
-After searching what type of code, I known that the code is Logo's turtle programming language. It will show graphic by graphic. So, I was try to compile it online by [Colormen](https://www.calormen.com/jslogo/) and got the flag.
+After searching for which type of code, I known that the code is Logo's turtle programming language. It will show graphic by graphic. So, I was try to compile it online by [Colormen](https://www.calormen.com/jslogo/) and got the flag.
 
 ![](myartwork/compile.gif)
 
