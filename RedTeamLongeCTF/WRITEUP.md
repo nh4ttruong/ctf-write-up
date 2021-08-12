@@ -1,11 +1,12 @@
-# WriteUp RTL-CTF
+# WriteUp RTL-CTF 2021
 
-# Expic - Forensic
+## Expic - Forensic
 
-## Statement
+### Statement
+
 ![](Images/expic.png)
 
-## Solution
+### Solution
 First, I think that the image will contain some data and I come up with "metadata". So I use [this tool](http://metapicz.com/#landing) to see what it be in.
 
 ![](Images/ex1.png)
@@ -16,17 +17,20 @@ It is the hex numbers. Next, I decrypt it to ASCII with [dcode.fr](https://www.d
 
 ![](Images/ex3.png)
 
-## Flag
+### Flag
+
 >**RTL{10bba9a52417095de51db9456361d744}**
 
-# Where is it? - OSINT
+## Where is it? - OSINT
 
-## Statement
+### Statement
+
 We have this picture and our task is find out the location.
 
 ![](Images/where.png)
 
-## Solution
+### Solution
+
 The picture is so bad quality and I decided that use enhance tool to make it clarity.
 
 ![](Images/whereeh.png)
@@ -41,6 +45,7 @@ All things are easy. I use Google Maps Street View to find out the location.
 
 ![](Images/final.png)
 
-## Flag
+### Flag
+
 >**RTL{52.516_13.408}**
 
