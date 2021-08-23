@@ -60,7 +60,7 @@ My mission is became easily. I think that I need to the data of User to get the 
 
 ![Result](devme/users.png)
 
-I have the admin token <code>username":"admin","token":"3cd3a50e63b3cb0a69cfb7d9d4f0ebc1dc1b94143475535930fa3db6e687280b</code> and I will write a query to POST to the website so that get the flag!
+I have the admin token <code>"username":"admin","token":"3cd3a50e63b3cb0a69cfb7d9d4f0ebc1dc1b94143475535930fa3db6e687280b</code> and I will write a query to POST to the website so that get the flag!
 
 ### Flag
 
@@ -104,7 +104,9 @@ with open('flag.enc', 'w') as f:
 The flag.enc:
 ```10000100100 10010000010 10010001010 10000100100 10010010010 10001000000 10100000000 10000100010 00101010000 10010010000 00101001010 10000101000 10000010010 00101010000 10010000000 10000101000 10000010010 10001000000 00101000100 10000100010 10010000100 00010101010 00101000100 00101000100 00101001010 10000101000 10100000100 00000100100```
 
-The challenge is relate to *Fibonacci* array. *c2f(c)* function is responsible for encryption. It converts each flag's letter to the binary array (len = 10).
+The challenge is relate to *Fibonacci* array.
+
+*c2f(c)* function is responsible for encryption. It converts each flag's letter to the binary array (len = 10).
 
 So that I was write a noob script to decrypt the flag.enc ^^
 
@@ -133,7 +135,7 @@ for i in range(0, len(arr), 1):
 print("".join(_list))
 ```
 
-{Result](fibinary/flag.png)
+![Result](fibinary/flag.png)
 
 ### Flag
 >**corCTF{b4s3_4nd_f1bp!113d}**
