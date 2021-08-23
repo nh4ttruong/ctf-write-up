@@ -140,3 +140,43 @@ print("".join(_list))
 ### Flag
 >**corCTF{b4s3_4nd_f1bp!113d}**
 
+
+## web/buyme
+
+### Statement
+
+![](buyme/state.png)
+
+Web challenge: https://buyme.be.ax/
+
+### Solution
+
+I try buying some flag to hope that some magic is happen =)))) (just kidding). Let's solve it :3
+
+After check the source code, I had some comments:
+- Password was hashed, so that injection is not a method.
+- Cookie is a unique for each account. It include "username" + "randomBytes", so that we can't cheat it :3
+- By file [api.js](buyme/source/routes/api.js), we know the structure of user object.
+
+From that, I think I can override the data when I request something =))) (fact: the last method which i can use :3).
+
+In the source code, author uses Map() to set/get for object. I think I need to write something to request author give me flag =))).
+
+In the route /buy, we have ```db.buyFlag({ user: req.user, ...req.body });``` and I think that this is the place where we can override the data on req.body because the challenge set the user infomation before user executes at /buy.
+
+Finally, I also register a real account to solve the challenge with ```username: aaabbb```. I use [Hack bar extension](https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc) with the data below:
+```graphql
+{
+	"flag":  "corCTF",
+    "user": {
+        "user":"aaabbb",
+        "money":1e+300,
+        "flags":[]
+    }
+}
+```
+
+![](buyme/solve.png)
+
+### Flag
+>**corctf{h0w_did_u_steal_my_flags_you_flag_h0arder??!!}**
