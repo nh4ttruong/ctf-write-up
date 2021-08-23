@@ -25,11 +25,13 @@ I try registing by (test@gmail.com) and using Burp to see what happen is going o
 When I register, the website redirect to "/graphql" and post a query so that sever create new user. And I realize that **graphql** is the problem. It can help me sending a query or retriving the database by the right query.
 
 After studying about graphql, I try posting the below query to see the behind structure of its "graphql":
-```grahpql
+```graphql
 {
-	"query":"query IntrospectionQuery {
+	"query": "query IntrospectionQuery {
 		__schema {
-			queryType{name}
+			queryType {
+			name
+			}
 			types {
 				name
 				fields {
@@ -43,13 +45,13 @@ After studying about graphql, I try posting the below query to see the behind st
 
 ![Result](devme/structure.png)
 
-As you can see, it show me some properties such as query type, type, name, field,.... This is the graphql structure of the website.
+As you can see, it shows me some properties such as query type, type, name, field,.... This is the graphql structure of the website.
 
 My mission is became easily. I think that I need to the data of User to get the admin data and try cheating.
 
 ```graphql
 {
-	"query":"query Query {
+	"query": "query Query {
 		users {
 			username
 			token
@@ -71,7 +73,7 @@ I have the admin token <code>"username":"admin","token":"3cd3a50e63b3cb0a69cfb7d
 
 ### Statement
 
-![](state.png)
+![](fibinary/state.png)
 
 The challenge has two source code: [enc.py](fibinary/enc.py) and [flag.enc](fibinary/flag.enc)
 
@@ -106,7 +108,7 @@ The flag.enc:
 
 The challenge is relate to *Fibonacci* array.
 
-*c2f(c)* function is responsible for encryption. It converts each flag's letter to the binary array (len = 10).
+c2f(c) function is responsible for encryption. It converts each flag's letter to the binary array (len = 10).
 
 So that I was write a noob script to decrypt the flag.enc ^^
 
@@ -162,14 +164,14 @@ After check the source code, I had some comments:
 
 From that, I think I can override the data when I request something =))) (fact: the last method which i can use :3).
 
-In the source code, author uses Map() to set/get for object. I think I need to write something to request author give me flag =))).
+In the source code, author uses Map() to set/get for object. I think I need to write something to request author to give me flag =))).
 
-In the route /buy, we have ```db.buyFlag({ user: req.user, ...req.body });``` and I think that this is the place where we can override the data on req.body because the challenge set the user infomation before user executes at /buy.
+In the route /buy, we have ```db.buyFlag({ user: req.user, ...req.body });``` and I think that there is the place where we can override the data on *req.body* because the challenge will set the default user infomation before the system executes at /buy when user buys the flag.
 
 Finally, I also register a real account to solve the challenge with ```username: aaabbb```. I use [Hack bar extension](https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc) to POST by the data below:
 ```graphql
 {
-	"flag":  "corCTF",
+	"flag": "corCTF",
     "user":
 	{
         "user":"aaabbb",
