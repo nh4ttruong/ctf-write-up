@@ -152,7 +152,7 @@ Source buyme.tar.xz: [here](buyme/chall)
 
 ### Solution
 
-I try buying some flag to hope that some magic is happen =)))) (just kidding). Let's solve it :3
+I try buying some flag to hope that some magic is happen =)))) (just kidding). Let's solve it! :3
 
 After check the source code, I had some comments:
 - Password was hashed, so that injection is not a method.
