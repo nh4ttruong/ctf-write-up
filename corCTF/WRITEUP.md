@@ -148,6 +148,7 @@ print("".join(_list))
 ![](buyme/state.png)
 
 Web challenge: https://buyme.be.ax/
+Source buyme.tar.xz: [here](buyme/chall)
 
 ### Solution
 
