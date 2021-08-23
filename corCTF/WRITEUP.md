@@ -71,7 +71,7 @@ I have the admin token <code>"username":"admin","token":"3cd3a50e63b3cb0a69cfb7d
 
 ### Statement
 
-![](state.png)
+![](fibinary/state.png)
 
 The challenge has two source code: [enc.py](fibinary/enc.py) and [flag.enc](fibinary/flag.enc)
 
