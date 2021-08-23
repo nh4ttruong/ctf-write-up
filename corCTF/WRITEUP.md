@@ -153,11 +153,7 @@ Source buyme.tar.xz [chall folder](buyme/chall.rar)
 
 ### Solution
 
-<<<<<<< HEAD
 I try buying some flag to hope that some magic is happen =)))). Let's solve it :3
-=======
-I try buying some flag to hope that some magic is happen =)))) (just kidding). Let's solve it! :3
->>>>>>> 810df6703a6a35a1dec7e2ca75ae716d1f6de0a9
 
 After check the source code, I had some comments:
 - Password was hashed, so that injection is not a method.
@@ -170,7 +166,7 @@ In the source code, author uses Map() to set/get for object. I think I need to w
 
 In the route /buy, we have ```db.buyFlag({ user: req.user, ...req.body });``` and I think that this is the place where we can override the data on req.body because the challenge set the user infomation before user executes at /buy.
 
-Finally, I also register a real account to solve the challenge with ```username: aaabbb```. I use [Hack bar extension](https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc) to POST with the data below:
+Finally, I also register a real account to solve the challenge with ```username: aaabbb```. I use [Hack bar extension](https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc) to POST by the data below:
 ```graphql
 {
 	"flag":  "corCTF",
