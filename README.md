@@ -1,38 +1,23 @@
 # Write-up CTF
 
-Write-up CTF Contests!
+Write-up Capture The Flag Contests!
 
 ## Imaginary CTF 2021
 
-<a href="ImaginaryCTF/WRITEUP.md">
-	<img src="ImaginaryCTF/logo.png" width=25%>
-	<p>Click me<p>
-</a>
+[Click me](ImaginaryCTF/WRITEUP.md)
 
 ## Red Team Longe CTF 2021
 
-<a href="RedTeamLongeCTF/WRITEUP.md">
-	<img src="RedTeamLongeCTF/rtlctf.png" width=25%>
-	<p>Click me<p>
-</a>
+[Click me](RedTeamLongeCTF/WRITEUP.md)
 
 ## BSides Noida CTF 2021
 
-<a href="BSidesNoidaCTF/WRITEUP.md">
-	<img src="BSidesNoidaCTF/logo.png" width=25%>
-	<p>Click me<p>
-</a>
+[Click me](BSidesNoidaCTF/WRITEUP.md)
 
 ## RCTS CERT CTF 2021
 
-<a href="RCTSCERTCTF/WRITEUP.md">
-	<img src="RCTSCERTCTF/RCTS.png" width=25%>
-	<p>Click me<p>
-</a>
+[Click me](RCTSCERTCTF/WRITEUP.md)
 
 ## corCTF 2021
 
-<a href="corCTF/WRITEUP.md">
-	<img src="corCTF/ctflogo.png" width=25%>
-	<p>Click me<p>
-</a>
+[Click me](corCTF/WRITEUP.md)
