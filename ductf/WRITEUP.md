@@ -46,21 +46,6 @@ It's absolutely impossible to request to */sad.eml*. So, we need to try somethin
 
 ![](cowboy/flag.png)
 
-## nostrings - Re
-
-### Challenge
-
-![](nostrings/nostrings.png)
-
-### Solution
-
-Use IDA tool and look a round. I thought that the author give everyone flag so that teams could happy before "capture" all flag of RE =)))
-You can try with [the challenge source I put here](nostrings/nostrings)
-
-### Flag
-
-![](nostrings/flag.png)
-
 ## Rabbit - Misc
 
 ### Challenge
@@ -187,6 +172,22 @@ Request to *./notaflag*, I got the flag
 ### Flag
 
 ![](badbucket/flag.png)
+
+
+## nostrings - Re
+
+### Challenge
+
+![](nostrings/nostrings.png)
+
+### Solution
+
+Use IDA tool and look a round. I thought that the author give everyone flag so that teams could happy before "capture" all flag of RE =)))
+You can try with [the challenge source I put here](nostrings/nostrings)
+
+### Flag
+
+![](nostrings/flag.png)
 
 ## Note
 
