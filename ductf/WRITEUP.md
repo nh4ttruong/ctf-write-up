@@ -1,6 +1,7 @@
 # Down Under CTF 2021
 
-[Down Under CTF 2021](https://downunderctf.com/)
+[Down Under CTF 2021 Home page](https://downunderctf.com/)
+
 ![](cover.png)
 
 ## Inside Out - Web
@@ -21,7 +22,7 @@ With the ip address in *Proxy Example page*, I tried to request the site with pa
 
 ### Flag
 
-![Flag](insideoutflag.png)
+![Flag](inside-out/insideoutflag.png)
 
 ## Cowboy World - Web
 
