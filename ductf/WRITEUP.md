@@ -1,4 +1,4 @@
-# Down Under CTF 2021
+# Write-up | Down Under CTF 2021
 
 [Down Under CTF 2021 Home page](https://downunderctf.com/)
 
