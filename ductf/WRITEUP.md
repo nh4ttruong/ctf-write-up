@@ -40,7 +40,7 @@ Let's check the robots file and we have this:
 
 ![](cowboy/robots.png)
 
-It's absolutely impossible to request to */sad.eml*. So, we need to try something like mod the HTTP Header. Change the User-Agent attribute to *"regular_cowboys"* and I succeed. The site was give me the *eml* file. Cat this file and capture the flag =)))
+It's absolutely impossible to request to */sad.eml*. So, we need to try something like mod the HTTP Header. Change the User-Agent attribute to *"regular_cowboys"* and I succeed. The site was give me the *eml* file. Cat this file and we have the username. Let's chill with SQL Injection. Then we got the flag =)))
 
 ### Flag
 
