@@ -1,8 +1,8 @@
 ---
 title: DownUnderCTF 2021
 tags: [write-up, ctf, ductf]
-style: 
-color: 
+style: fill
+color: danger
 description: Write-up in the DownUnderCTF CTF 2021.
 ---
 
