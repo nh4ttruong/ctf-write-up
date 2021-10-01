@@ -1,12 +1,3 @@
----
-title: Imaginary CTF 2021
-tags: [write-up, ctf, imaginary]
-style: fill
-color: secondary
-comments: true
-description: Write-up in the Imaginary CTF 2021.
----
-
 ## 1. Sanity Check - OSINT
 
 ### Challenge
@@ -18,7 +9,7 @@ Find out the location where he forgot. He still have this picture.
 
 First, we find out some special things in the picture. We see the brand sign "SugarPine Bakery".
 
-![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/imaginary-ctf-2021/images/imagesbrandsign.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/imaginary-ctf-2021/images/brandsign.png)
 
 Use Google Maps Street View to check where "SugarPine Bakery" is.
 
