@@ -1,7 +1,7 @@
 # About
-The zone which I archive my study and my experiments such as “Capture The Flag”,...
+The zone which I archive my study and my experiments such as write up “Capture The Flag”,...
 
-## CTF Competitions 2021
+## Write up CTF Competitions 2021
 - [Imaginary CTF 2021](sources/imaginary-ctf-2021.md) (⭐⭐)
 - [Red Team Longe CTF 2021](sources/red-team-longe-ctf-2021.md) (⭐⭐)
 - [BSides Noida CTF 2021](sources/bside-noida-ctf-2021.md) (⭐⭐⭐)
