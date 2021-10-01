@@ -12,17 +12,17 @@ description: Write-up in the Imaginary CTF 2021.
 ### Challenge
 
 Find out the location where he forgot. He still have this picture.
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/imaginary-ctf-2021/images/SanityCheck.jpg)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/imaginary-ctf-2021/images/SanityCheck.jpg)
 
 ### Solution
 
 First, we find out some special things in the picture. We see the brand sign "SugarPine Bakery".
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/imaginary-ctf-2021/images/imagesbrandsign.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/imaginary-ctf-2021/images/imagesbrandsign.png)
 
 Use Google Maps Street View to check where "SugarPine Bakery" is.
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/imaginary-ctf-2021/images/streetview.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/imaginary-ctf-2021/images/streetview.png)
 
 Maybe this is the location which we should find out.
 
@@ -35,7 +35,7 @@ We have the location **038.9472063,-119.9610895** but the author asked that subm
 
 ### Challenge
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/imaginary-ctf-2021/images/SpellingTest.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/imaginary-ctf-2021/images/SpellingTest.png)
 
 ### Solution
 

@@ -6,7 +6,7 @@ color: success
 description: Write-up in the corCTF 2021.
 ---
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/website.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/website.png)
 
 ## web/devme
 
@@ -14,19 +14,19 @@ Challenge link [https://devme.be.ax/](https://devme.be.ax/)
 
 ### Challenge
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/statement.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/statement.png)
 
-[Source website and devme.html here](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/cor-ctf-2021/devme/devme_files.zip)
+[Source website and devme.html here](https://github.com/nh4ttruong/ctf-write-up/blob/main/sources/cor-ctf-2021/devme/devme_files.zip)
 
 ### Solution
 
 Using devtool that not give us anything special. Look up on the website, I see the form which allow me to POST something to server:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/sendEmail.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/sendEmail.png)
 
 I try registing by (test@gmail.com) and using Burp to see what happen is going on:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/burp.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/burp.png)
 
 When I register, the website redirect to "/graphql" and post a query so that sever create new user. And I realize that **graphql** is the problem. It can help me sending a query or retriving the database by the right query.
 
@@ -50,7 +50,7 @@ After studying about graphql, I try posting the below query to see the behind st
 }
 ```
 
-![Result](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/structure.png)
+![Result](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/structure.png)
 
 As you can see, it shows me some properties such as query type, type, name, field,.... This is the graphql structure of the website.
 
@@ -66,23 +66,23 @@ My mission is became easily. I think that I need to the data of User to get the 
 }
 ```
 
-![Result](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/users.png)
+![Result](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/users.png)
 
 I have the admin token ```<code>"username":"admin","token":"3cd3a50e63b3cb0a69cfb7d9d4f0ebc1dc1b94143475535930fa3db6e687280b</code>``` and I will write a query to POST to the website so that get the flag!
 
 ### Flag
 
-![flag](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/devme/flag.png)
+![flag](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/devme/flag.png)
 
 ## web/buyme
 
 ### Challenge
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/buyme/state.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/buyme/state.png)
 
 Web challenge: https://buyme.be.ax/
 
-Source buyme.tar.xz [chall folder](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/cor-ctf-2021/buyme/chall.rar)
+Source buyme.tar.xz [chall folder](https://github.com/nh4ttruong/ctf-write-up/blob/main/sources/cor-ctf-2021/buyme/chall.rar)
 
 ### Solution
 
@@ -112,7 +112,7 @@ Finally, I also register a real account to solve the challenge with ```username:
 }
 ```
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/buyme/solve.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/buyme/solve.png)
 
 ### Flag
 >**corctf{h0w_did_u_steal_my_flags_you_flag_h0arder??!!}**
@@ -121,13 +121,13 @@ Finally, I also register a real account to solve the challenge with ```username:
 
 ### Challenge
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/fibinary/state.png)
+![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/fibinary/state.png)
 
-The challenge has two source code: [enc.py](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/cor-ctf-2021/fibinary/enc.py) and [flag.enc](cor-ctf-2021/fibinary/flag.enc)
+The challenge has two source code: [enc.py](https://github.com/nh4ttruong/ctf-write-up/blob/main/sources/cor-ctf-2021/fibinary/enc.py) and [flag.enc](cor-ctf-2021/fibinary/flag.enc)
 
 ### Solution
 
-The source code [enc.py](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/cor-ctf-2021/fibinary/enc.py):
+The source code [enc.py](https://github.com/nh4ttruong/ctf-write-up/blob/main/sources/cor-ctf-2021/fibinary/enc.py):
 ```python
 fib = [1, 1]
 for i in range(2, 11):
@@ -185,7 +185,7 @@ for i in range(0, len(arr), 1):
 print("".join(_list))
 ```
 
-![Result](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/cor-ctf-2021/fibinary/flag.png)
+![Result](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/sources/cor-ctf-2021/fibinary/flag.png)
 
 ### Flag
 >**corCTF{b4s3_4nd_f1bp!113d}**
