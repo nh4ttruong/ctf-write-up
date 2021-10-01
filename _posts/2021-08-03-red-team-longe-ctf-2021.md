@@ -2,7 +2,7 @@
 title: RedTimeLonge CTF 2021
 tags: [write-up, ctf, redtimelonge]
 style: fill
-color: light
+color: warning
 description: Write-up in the RedTimeLonge CTF 2021
 ---
 
