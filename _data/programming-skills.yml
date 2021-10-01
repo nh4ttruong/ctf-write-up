@@ -1,0 +1,11 @@
+- name: HTML5/CSS3/JS
+  percentage: 50
+  color: danger
+
+- name: C/C++
+  percentage: 70
+  color:
+
+- name: Python
+  percentage: 60
+  color: secondary

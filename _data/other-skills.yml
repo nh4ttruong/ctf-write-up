@@ -1,0 +1,7 @@
+- name: Adobe (Ps, Ai, Pr)
+  percentage: 70
+  color: info
+
+- name: Office 365/Google Apps
+  percentage: 80
+  color: success

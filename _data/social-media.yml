@@ -1,0 +1,27 @@
+# Get Icons  from : https://fontawesome.com/icons
+# Get Colors from : https://brandcolors.net/
+
+email:
+  url   : "mailto:"
+  icon  : fas fa-envelope
+  color : db4437
+
+facebook:
+  url   : https://www.facebook.com/
+  icon  : fab fa-facebook
+  color : 3b5998
+
+github:
+  url   : https://www.github.com/
+  icon  : fab fa-github
+  color : 333333
+
+instagram:
+  url   : https://www.instagram.com/
+  icon  : fab fa-instagram
+  color : 405de6
+
+youtube:
+  url   : https://www.youtube.com/
+  icon  : fab fa-youtube
+  color : ff0000
