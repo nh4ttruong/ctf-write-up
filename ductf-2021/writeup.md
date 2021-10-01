@@ -1,10 +1,4 @@
----
-title: DownUnderCTF 2021
-tags: [write-up, ctf, ductf]
-style: fill
-color: danger
-description: Write-up in the DownUnderCTF CTF 2021.
----
+# Down Under CTF 2021 (ductf) - Write up
 
 Down Under CTF 2021 [home page](https://downunderctf.com/)
 
