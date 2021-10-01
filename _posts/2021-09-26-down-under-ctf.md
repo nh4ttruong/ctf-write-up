@@ -8,19 +8,19 @@ description: Write-up in the DownUnderCTF CTF 2021.
 
 Down Under CTF 2021 [home page](https://downunderctf.com/)
 
-![](cover.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/cover.png)
 
 ## Inside Out - Web
 
 ### Challenge
 
-![Challenge](ductf-2021/inside-out/insideout.png)
+![Challenge](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/inside-out/insideout.png)
 
 ### Solution
 
 Open the relate link *Proxy Example*, we have some infomations about the network configuration.
 
-![](ductf-2021/inside-out/proxy.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/inside-out/proxy.png)
 
 Look at the url bar on Chrome, I realize that it request *"/request?url=http://example.com/"*
 
@@ -28,37 +28,37 @@ With the ip address in *Proxy Example page*, I tried to request the site with pa
 
 ### Flag
 
-![Flag](ductf-2021/inside-out/insideoutflag.png)
+![Flag](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/inside-out/insideoutflag.png)
 
 ## Cowboy World - Web
 
 ### Challenge
 
-![Challenge](ductf-2021/cowboy/chal.png)
+![Challenge](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/cowboy/chal.png)
 
 ### Solution
 
 Open the challenge link, we got the login site *cowboy* :((
 
-![](ductf-2021/cowboy/login.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/cowboy/login.png)
 
 Let's check the robots file and we have this:
 
-![](ductf-2021/cowboy/robots.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/cowboy/robots.png)
 
 It's absolutely impossible to request to */sad.eml*. So, we need to try something like mod the HTTP Header. Change the User-Agent attribute to *"regular_cowboys"* and I succeed. The site was give me the *eml* file. Cat this file and we have the username. Let's chill with SQL Injection. Then we got the flag =)))
 
 ### Flag
 
-![](ductf-2021/cowboy/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/cowboy/flag.png)
 
 ## Rabbit - Misc
 
 ### Challenge
 
-![](ductf-2021/rabbit/rabbit.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/rabbit/rabbit.png)
 
-I [put the source here](ductf-2021/rabbit/flag.txt) if you want to try after read this write-up
+I [put the source here](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/ductf-2021/rabbit/flag.txt) if you want to try after read this write-up
 
 ### Solution
 
@@ -76,13 +76,13 @@ done
 
 ### Flag
 
-![](ductf-2021/rabbit/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/rabbit/flag.png)
 
 ## General Skill - Misc
 
 ### Challenge
 
-![](ductf-2021/general-skill/chal.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/general-skill/chal.png)
 
 ### Solution
 
@@ -159,41 +159,41 @@ io.interactive()
 
 ### Flag
 
-![](ductf-2021/general-skill/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/general-skill/flag.png)
 
 ## Bad Bucket - Cloud
 
 ### Challenge
 
-![Challenge](ductf-2021/badbucket/chal.png)
+![Challenge](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/badbucket/chal.png)
 
 ### Solution
 
 It's so easy to find out the flag. Come back to the *"https://storage.googleapis.com/the-bad-bucket-ductf/"*, the site will be displayed the need informations
 
-![](ductf-2021/badbucket/content.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/badbucket/content.png)
 
 Request to *./notaflag*, I got the flag
 
 ### Flag
 
-![](ductf-2021/badbucket/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/badbucket/flag.png)
 
 
 ## nostrings - Re
 
 ### Challenge
 
-![](ductf-2021/nostrings/nostrings.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/nostrings/nostrings.png)
 
 ### Solution
 
 Use IDA tool and look a round. I thought that the author give everyone flag so that teams could happy before "capture" all flag of RE =)))
-You can try with [the challenge source I put here](ductf-2021/nostrings/nostrings)
+You can try with [the challenge source I put here](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/ductf-2021/nostrings/nostrings)
 
 ### Flag
 
-![](ductf-2021/nostrings/flag.png)
+![](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/ductf-2021/nostrings/flag.png)
 
 ## Note
 
