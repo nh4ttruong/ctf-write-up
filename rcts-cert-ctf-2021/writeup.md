@@ -1,10 +1,4 @@
----
-title: RCTS CERT CTF 2021
-tags: [write-up, ctf, rctscertctf]
-style: fill
-color: light
-description: Write-up in the RCTS CERT CTF 2021.
----
+# RCTS CERT CTF 2021 - Write up
 
 Home page: https://defendingthesoc.ctf.cert.rcts.pt/
 
