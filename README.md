@@ -2,12 +2,12 @@
 The zone which I archive my study and my experiments such as “Capture The Flag”,...
 
 ## CTF Competitions 2021
-- [Imaginary CTF 2021](sources/imaginary-ctf-2021.md) (⭐⭐)
-- [Red Team Longe CTF 2021](sources/red-team-longe-ctf-2021.md) (⭐⭐)
-- [BSides Noida CTF 2021](sources/bside-noida-ctf-2021.md) (⭐⭐⭐)
-- [RCTS CERT CTF 2021](sources/rcts-cert-ctf-2021.md) (⭐)
-- [corCTF 2021](sources/cor-ctf-2021.md) (⭐⭐⭐)
-- [Down Under CTF 2021](sources/down-under-ctf.md) (⭐⭐⭐⭐)
+- [Imaginary CTF 2021](imaginary-ctf-2021/writeup.md) (⭐⭐)
+- [Red Team Longe CTF 2021](red-team-longe-ctf-2021/writeup.md) (⭐⭐)
+- [BSides Noida CTF 2021](bside-noida-ctf-2021/writeup.md) (⭐⭐⭐)
+- [RCTS CERT CTF 2021](rcts-cert-ctf-2021/writeup.md) (⭐)
+- [corCTF 2021](cor-ctf-2021/writeup.md) (⭐⭐⭐)
+- [Down Under CTF 2021](down-under-ctf/writeup.md) (⭐⭐⭐⭐)
 
 You can read detaily at [this page](https://nh4ttruong.github.io/blog)
 
