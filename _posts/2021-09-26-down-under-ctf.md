@@ -193,7 +193,7 @@ You can try with [the challenge source I put here](https://github.com/nh4ttruong
 
 ### Flag
 
-![](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/ductf-2021/nostrings/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/ductf-2021/nostrings/flag.png)
 
 ## Note
 
