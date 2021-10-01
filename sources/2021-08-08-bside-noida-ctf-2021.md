@@ -14,17 +14,17 @@ Website: [https://ctf.bsidesnoida.in/](https://ctf.bsidesnoida.in/)
 
 This challenge:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/MiscPsst/statement.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/MiscPsst/statement.png)
 
-After download, we have a [tar file](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/bside-noida-ctf-2021/MiscPsst/psst.tar.gz)
+After download, we have a [tar file](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/bside-noida-ctf-2021/MiscPsst/psst.tar.gz)
 
 ### Solution
 
 After I had extracted it, I had a folder which contain some files in folder. I used search tool in Ubuntu to filter ".txt" and had this result:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/MiscPsst/folder.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/MiscPsst/folder.png)
 
-The content in that files which joined is the flag. Therefore, I write a [small bashscript](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/bside-noida-ctf-2021/MiscPsst/script.sh) below to make it easy:
+The content in that files which joined is the flag. Therefore, I write a [small bashscript](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/bside-noida-ctf-2021/MiscPsst/script.sh) below to make it easy:
 
 ```shell
 #!/bin/bash
@@ -45,7 +45,7 @@ And we got the flag!!!!
 
 ### Flag
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/MiscPsst/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/MiscPsst/flag.png)
 
 ## Misc/My Artwork
 
@@ -53,15 +53,15 @@ And we got the flag!!!!
 
 This challenge:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/myartwork/statement.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/myartwork/statement.png)
 
-Here is code -> [Code](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/bside-noida-ctf-2021/myartwork/art.TURTLE)
+Here is code -> [Code](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/bside-noida-ctf-2021/myartwork/art.TURTLE)
 
 ### Solution
 
 After searching for which type of code, I known that the code is Logo's turtle programming language. It will show graphic by graphic. So, I was try to compile it online by [Colormen](https://www.calormen.com/jslogo/) and got the flag.
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/myartwork/compile.gif)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/myartwork/compile.gif)
 
 ### Flag
 
@@ -71,9 +71,9 @@ After searching for which type of code, I known that the code is Logo's turtle p
 
 ### Statement
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/babyweb/chal.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/babyweb/chal.png)
 
-Source [baby_web.zip here](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/bside-noida-ctf-2021/babyweb/baby_web.zip) and *index.html* below:
+Source [baby_web.zip here](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/bside-noida-ctf-2021/babyweb/baby_web.zip) and *index.html* below:
 
 ```html
 <!DOCTYPE html>
@@ -234,16 +234,16 @@ if (!$db) {
 
 Web interface:
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/babyweb/web.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/babyweb/web.png)
 
 ### Solution
 
 The website will return the infomation when user type the challenge ID ```?chall_id=```
 
-Looking at the attached source and index.html, the all query will be saved in the *karma.db* file. Try to check this file by add ```karma.db``` into the pay load after query some chall_id. Immediately, I had a new [*karma.db*](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/_posts/bside-noida-ctf-2021/babyweb/karma.db). Open it and we got the flag.
+Looking at the attached source and index.html, the all query will be saved in the *karma.db* file. Try to check this file by add ```karma.db``` into the pay load after query some chall_id. Immediately, I had a new [*karma.db*](https://github.com/nh4ttruong/nh4ttruong.github.io/blob/main/sources/bside-noida-ctf-2021/babyweb/karma.db). Open it and we got the flag.
 
 ### Flag
 
-![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/_posts/bside-noida-ctf-2021/babyweb/flag.png)
+![](https://raw.githubusercontent.com/nh4ttruong/nh4ttruong.github.io/main/sources/bside-noida-ctf-2021/babyweb/flag.png)
 
 >**BSNoida{4_v3ry_w4rm_w31c0m3_2_bs1d35_n01d4}**
