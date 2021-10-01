@@ -87,7 +87,7 @@ done
 ### Solution
 
 We will answer all quiz (10s/question) to get the flag. But, I think it so difficult to "handmade" all quiz. So, I wrote this script to walk through challenge =)))
-```python3
+```python
 from pwn import *
 import urllib
 import base64
