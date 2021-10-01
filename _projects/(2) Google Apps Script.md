@@ -9,8 +9,6 @@ description: This project has some small project which relate to Google Apps Scr
 
 Apps Script lets you do more with Google, all on a modern JavaScript platform in the cloud. Build solutions to boost your collaboration and productivity. Home page: [App Script](https://developers.google.com/apps-script)
 
-![preview](https://www.sketchappsources.com/resources/source-image/we-were-soldiers-landing-page-dbruggisser.jpg)
-
 ## Code samples	
 
 - Some sample for Google Sheets
