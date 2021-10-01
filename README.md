@@ -7,7 +7,7 @@ The zone which I archive my study and my experiments such as write up “Capture
 - [BSides Noida CTF 2021](bside-noida-ctf-2021/writeup.md) (⭐⭐⭐)
 - [RCTS CERT CTF 2021](rcts-cert-ctf-2021/writeup.md) (⭐)
 - [corCTF 2021](cor-ctf-2021/writeup.md) (⭐⭐⭐)
-- [Down Under CTF 2021](down-under-ctf/writeup.md) (⭐⭐⭐⭐)
+- [Down Under CTF 2021](ductf-2021/writeup.md) (⭐⭐⭐⭐)
 
 You can read detaily at [this page](https://nh4ttruong.github.io/blog)
 
