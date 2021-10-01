@@ -1,5 +1,5 @@
 # About
-The zone which I archive my study and my experiments such as “Capture The Flag”,...
+The zone which I archive my study and my experiments such as write up “Capture The Flag”,...
 
 ## CTF Competitions 2021
 - [Imaginary CTF 2021](imaginary-ctf-2021/writeup.md) (⭐⭐)
