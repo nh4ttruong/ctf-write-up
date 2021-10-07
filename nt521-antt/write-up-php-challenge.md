@@ -101,6 +101,9 @@ Yeah, we are success when execute `system("ls")` on the server. Now our work is 
 *Ctrl + U* is shortcut key to view source and it's the way that we captured the flag :3
 ![](images/flag.png)
 
-**Note:***When we changed the payload, the important thing that we need to remember is changing the length of property*
+**Note:**
+- *When we changed the payload, the important thing that we need to remember is changing the length of property*
+- The final source code here [code.php](code.php)
+
 ## Flag
 > **flag{n0j_l0j_pk4j_qju_l4y_l0j_dunq_nku_c0n_bu0m_d4u_r0j_l4j_b4y}**
