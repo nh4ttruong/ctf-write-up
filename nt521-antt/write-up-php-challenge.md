@@ -4,7 +4,7 @@
 This is our task from teacher at NT521.ANTT pratical class (Nghi Hoang Khoa) ^^. My team called by **54010N** and you can see us in [CTF Time](https://ctftime.org/team/143012)
 As teacher say, our work is find out flag of challenge by exploiting the PHP serialize/deserialize vulnerability.
 
-## The challenge
+## Challenge
 Link: *http://45.122.249.68:10001*
 
 If you're lazy, you can see the quick code [here](chall.php)
