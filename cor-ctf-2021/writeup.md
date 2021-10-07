@@ -1,10 +1,4 @@
----
-title: corCTF 2021
-tags: [write-up, ctf, corctf]
-style: fill
-color: success
-description: Write-up in the corCTF 2021.
----
+# corCTF 2021 - Write up
 
 ![](https://raw.githubusercontent.com/nh4ttruong/ctf-write-up/main/cor-ctf-2021/website.png)
 
