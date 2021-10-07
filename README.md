@@ -9,6 +9,9 @@ The zone which I archive my study and my experiments such as write up “Capture
 - [corCTF 2021](cor-ctf-2021/writeup.md) (⭐⭐⭐)
 - [Down Under CTF 2021](ductf-2021/writeup.md) (⭐⭐⭐⭐)
 
+## Challenge
+- [PHP Challenge](nt521-antt/write-up-php-challenge.md): A challenge in NT521.ANTT's lab.
+
 *Now*, you can read more at ➡️ [this page](https://nh4ttruong.github.io/blog)
 
 ## Note
